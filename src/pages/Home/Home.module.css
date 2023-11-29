@@ -1,0 +1,47 @@
+body {
+    width: 100%;
+    min-height: 90vh;
+    box-sizing: border-box;
+    font-weight: 600;
+    text-align: center;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.addcontainer > p {
+    font-size: 1.4em;
+}
+
+.form > input {
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid black;
+    outline: none;
+    padding: 5px 5px 5px 5px;
+    border-radius: 3px;
+}
+
+.form > button {
+    font-size: 0.9em;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: fit-content;
+    padding: 0px 10px 0px 10px;
+    transition: all 0.5s;
+}
+
+.form > button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
